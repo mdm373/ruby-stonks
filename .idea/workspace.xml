@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fcdbac72-3036-433e-a1e7-c2886541d862" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/.ruby-version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/Gemfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/Gemfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/Rakefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/app/assets/config/manifest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/app/assets/images/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/app/assets/stylesheets/application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/app/channels/application_cable/channel.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/app/channels/application_cable/connection.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/app/controllers/application_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/app/controllers/concerns/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/app/controllers/todos_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/app/helpers/application_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/app/jobs/application_job.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/app/mailers/application_mailer.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/app/models/application_record.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/app/models/concerns/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/app/models/todo.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/app/views/layouts/application.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/app/views/layouts/mailer.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/app/views/layouts/mailer.text.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/app/views/todos/_todo.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/app/views/todos/index.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/app/views/todos/show.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/bin/bundle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/bin/bundle.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/bin/rails" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/bin/rake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/bin/setup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/config.ru" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/config/application.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/config/boot.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/config/cable.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/config/credentials.yml.enc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/config/database.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/config/environment.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/config/environments/development.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/config/environments/production.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/config/environments/test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/config/initializers/assets.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/config/initializers/content_security_policy.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/config/initializers/filter_parameter_logging.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/config/initializers/inflections.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/config/initializers/permissions_policy.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/config/locales/en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/config/puma.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/config/routes.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/config/storage.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/db/migrate/20230204185154_create_todos.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/db/schema.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/db/seeds.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/entrypoint.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/lib/assets/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/lib/tasks/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/log/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/public/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/public/422.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/public/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/public/apple-touch-icon-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/public/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/ruby-stonks-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/shadow.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/storage/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/test/application_system_test_case.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/test/channels/application_cable/connection_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/test/controllers/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/test/controllers/todos_controller_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/test/fixtures/files/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/test/fixtures/todos.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/test/helpers/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/test/integration/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/test/mailers/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/test/models/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/test/models/todo_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/test/system/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/test/test_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/tmp/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/tmp/pids/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/tmp/storage/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-api/vendor/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-ui/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-ui/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-ui/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-ui/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-ui/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-ui/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-ui/app/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-ui/app/head.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-ui/app/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-ui/app/page.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-ui/app/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-ui/next.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-ui/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-ui/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-ui/pages/api/hello.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-ui/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-ui/public/next.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-ui/public/thirteen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-ui/public/vercel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-ui/ruby-stonks-ui.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-stonks-ui/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2LHNZ9YUmGOMHTAvhFZt3jvSnA0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="ts.external.directory.path" value="F:\Projects\ruby-stonks\ruby-stonks-ui\node_modules\typescript\lib" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="showLigatures" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Projects\ruby-stonks" />
+      <recent name="F:\Projects\ruby-stonks\ruby-stonks-api" />
+    </key>
+  </component>
+  <component name="RubyModuleManagerSettings">
+    <option name="blackListedRootsPaths">
+      <list>
+        <option value="$PROJECT_DIR$" />
+      </list>
+    </option>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="bundle install" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="ruby-stonks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ruby-stonks" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ruby-stonks" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="ruby-stonks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="ruby-stonks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="ruby-stonks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="ruby-stonks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="ruby-stonks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="ruby-stonks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fcdbac72-3036-433e-a1e7-c2886541d862" name="Changes" comment="" />
+      <created>1675524104843</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675524104843</updated>
+      <workItem from="1675524106288" duration="13061000" />
+      <workItem from="1675553853908" duration="34000" />
+      <workItem from="1675553907154" duration="472000" />
+      <workItem from="1675554438998" duration="259000" />
+      <workItem from="1675554714687" duration="4604000" />
+      <workItem from="1675563039280" duration="626000" />
+      <workItem from="1675563713291" duration="320000" />
+      <workItem from="1675564048350" duration="7587000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

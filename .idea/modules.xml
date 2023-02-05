@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ruby-stonks-api/ruby-stonks-api.iml" filepath="$PROJECT_DIR$/ruby-stonks-api/ruby-stonks-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ruby-stonks-ui/ruby-stonks-ui.iml" filepath="$PROJECT_DIR$/ruby-stonks-ui/ruby-stonks-ui.iml" />
+    </modules>
+  </component>
+</project>

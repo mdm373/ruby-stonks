@@ -1,0 +1,15 @@
+default: &default
+  adapter: postgresql
+  user: <%= ENV['POSTGRES_USER'] || 'postgres' %>
+  password: <%= ENV['POSTGRES_PASSWORD'] || 'postgres' %>
+  database: <%= ENV['POSTGRES_DB'] || 'ruby_stonks' %>
+  pool: <%= ENV['POSTGRES_POOL'] || '5' %>
+  timeout: <%= ENV['POSTGRES_TIMEOUT'] || '5000' %>
+  host: <%= ENV['POSTGRES_HOST'] || 'localhost' %>
+  port: <% ENV['POSTGRES_PORT'] || '5432' %>
+
+development:
+  <<: *default
+
+test:
+  <<: *default
