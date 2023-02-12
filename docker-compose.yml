@@ -7,10 +7,12 @@ services:
       - api
     environment:
       PORT: ${UI_PORT:-3000}
+      GITHUB_CLIENT_ID: ${UI_GITHUB_CLIENT_ID}
+      GITHUB_CLIENT_SECRET: ${UI_GITHUB_CLIENT_SECRET}
+      NEXTAUTH_URL: ${UI_BASE_URL:-"http://localhost:3000"}
+      JWT_AUTH_SECRET: ${UI_AUTH_SECRET}
   api:
     build: ./ruby-stonks-api
-    ports:
-      - "${API_PORT:-3001}:${API_PORT:-3000}"
     depends_on:
       - db
     environment:
@@ -22,6 +24,7 @@ services:
       POSTGRES_DB: ${POSTGRES_DB:-ruby_stonks}
       POSTGRES_POOL: ${POSTGRES_POOL:-5000}
       POSTGRES_TIMEOUT: ${POSTGRES_TIMEOUT:-5}
+      OAUTH_JWT_SECRET: ${API_AUTH_SECRET}
   db:
     image: "postgres:${POSTGRES_VERSION:-latest}"
     ports:

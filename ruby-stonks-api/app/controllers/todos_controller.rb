@@ -1,5 +1,6 @@
-class TodosController < ApplicationController
+class TodosController < ActionController::API
   before_action :set_todo, only: %i[ show update destroy ]
+  before_action -> { doorkeeper_authorize! :read}
 
   # GET /todos
   # GET /todos.json

@@ -7,7 +7,14 @@
 * Run
   * `gem install rails`
   * `bundle install`
+  * Start DB `cd .. && docker-compose up db`
   * `rails server`
 
 ## Run DB Migrations
 * `rails db:migrate`
+
+## Generate App For UI
+* From Rails Console:
+  ```
+  Doorkeeper::Application.create!(name:"ruby-stonks-ui", scopes: ["read", "write"])
+  ```
