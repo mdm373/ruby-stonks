@@ -6,13 +6,19 @@ services:
     depends_on:
       - api
     environment:
+      NEXTAUTH_URL: ${UI_BASE_URL:-"http://localhost:3000"}
       PORT: ${UI_PORT:-3000}
       GITHUB_CLIENT_ID: ${UI_GITHUB_CLIENT_ID}
       GITHUB_CLIENT_SECRET: ${UI_GITHUB_CLIENT_SECRET}
-      NEXTAUTH_URL: ${UI_BASE_URL:-"http://localhost:3000"}
       JWT_AUTH_SECRET: ${UI_AUTH_SECRET}
+      STONKS_CLIENT_ID: ${UI_STONKS_CLIENT_ID}
+      STONKS_CLIENT_SECRET: ${UI_STONKS_CLIENT_SECRET}
+      STONKS_CLIENT_HOST: ${UI_STONKS_HOST:-http://api:3001}
+
   api:
     build: ./ruby-stonks-api
+    ports:
+      - "${API_PORT:-3001}:${API_PORT:-3001}"
     depends_on:
       - db
     environment:

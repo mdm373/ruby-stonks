@@ -1,4 +1,4 @@
-import NextAuth from "next-auth"
+import NextAuth, {AuthOptions} from "next-auth"
 import GithubProvider from "next-auth/providers/github"
 
 
@@ -8,7 +8,8 @@ const requiredConfig = (key: string, value: string|undefined): string => {
     }
     return value
 }
-export default NextAuth({
+
+export const authOptions: AuthOptions = {
     providers: [
         GithubProvider({
             clientId: requiredConfig('GITHUB_CLIENT_ID', process.env.GITHUB_CLIENT_ID),
@@ -20,10 +21,6 @@ export default NextAuth({
         maxAge: 7 * (24*60*60), // count * day,
         strategy: "jwt"
     },
-    callbacks: {
-        signIn: async (message): Promise<boolean> => {
+}
 
-            return true
-        }
-    },
-})
+export default NextAuth(authOptions)

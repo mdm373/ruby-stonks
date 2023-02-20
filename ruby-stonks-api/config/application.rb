@@ -8,6 +8,7 @@ Bundler.require(*Rails.groups)
 
 module RubyStonksApi
   class Application < Rails::Application
+    config.hosts = %w[localhost api]
     config.api_only = true
     config.debug_exception_response_format = :api
     # Initialize configuration defaults for originally generated Rails version.
